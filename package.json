@@ -21,15 +21,12 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.4.0",
     "eslint-config-xo": "^0.19.0",
-    "jest": "^22.0.4",
-    "jest-cli": "^22.0.4",
     "lec": "^1.0.1"
   },
   "scripts": {
     "prepublish": "lec lib/index.js -c LF && nsp check",
     "pretest": "eslint .",
-    "precommit": "lint-staged",
-    "test": "jest"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"],
@@ -53,9 +50,6 @@
     "plugins": ["prettier"]
   },
   "repository": "b4dnewz/social-scanner-cli",
-  "jest": {
-    "testEnvironment": "node"
-  },
   "bin": {
     "social-scanner": "lib/index.js"
   },
