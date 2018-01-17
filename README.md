@@ -1,8 +1,15 @@
-# social-scanner-cli
+<h1 align="center">social-scanner-cli</h1>
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+![banner](https://rawgit.com/b4dnewz/social-scanner/master/banner.jpg)
 
-> The cli module for social-scanner repository.
+<p align="center">
+  <a href="https://travis-ci.org/b4dnewz/social-scanner"><img src="https://travis-ci.org/b4dnewz/social-scanner.svg?branch=master"></a>
+  <a href="https://david-dm.org/b4dnewz/social-scanner"><img src="https://david-dm.org/b4dnewz/social-scanner.svg?theme=shields.io"></a>
+  <a href="https://coveralls.io/r/b4dnewz/social-scanner"><img src="https://coveralls.io/repos/b4dnewz/social-scanner/badge.svg"></a>
+  <a href="https://snyk.io/test/github/b4dnewz/social-scanner"><img src="https://snyk.io/test/github/b4dnewz/social-scanner/badge.svg"></a>
+</p>
+
+<p align="center">node cli tool to scan various social networks for a username</p>
 
 ## Installation
 Install the module globally to access it from your command line everywhere.
@@ -15,17 +22,9 @@ For all the program informations and usage run the command with __help__ option 
 ```sh
 $ social-scanner --help
 ```
+If you want to add a rule to the scanner follow the [guide](https://github.com/b4dnewz/social-scanner#adding-rules) on the project repository page. For any issue regarding the use of __social-scanner__ please on an [issue](https://github.com/b4dnewz/social-scanner/issues) on the project repository page.
+
 
 ## License
 
 MIT © [b4dnewz](https://b4dnewz.github.io/)
-
-
-[npm-image]: https://badge.fury.io/js/social-scanner-cli.svg
-[npm-url]: https://npmjs.org/package/social-scanner-cli
-[travis-image]: https://travis-ci.org/b4dnewz/social-scanner-cli.svg?branch=master
-[travis-url]: https://travis-ci.org/b4dnewz/social-scanner-cli
-[daviddm-image]: https://david-dm.org/b4dnewz/social-scanner-cli.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/b4dnewz/social-scanner-cli
-[coveralls-image]: https://coveralls.io/repos/b4dnewz/social-scanner-cli/badge.svg
-[coveralls-url]: https://coveralls.io/r/b4dnewz/social-scanner-cli
