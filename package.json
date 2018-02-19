@@ -52,6 +52,7 @@
     "social-scanner": "lib/index.js"
   },
   "dependencies": {
+    "chalk": "^2.3.1",
     "commander": "^2.13.0",
     "lodash": "^4.17.4",
     "social-scanner": "0.1.1"
